@@ -23,10 +23,10 @@ To run the Car Landing Page project locally, follow these steps:
 1. **Clone the repository** to your local machine:
 
    ```bash
-   git clone https://github.com/aarshitaacharya/car-landing-page.git
+   git clone https://github.com/aarshitaacharya/cars-landing-page.git
 2. **Navigate to the project directory:**
    ```bash
-    cd car-landing-page
+    cd cars-landing-page
 
 3. **Install dependencies using npm:**
    ```bash
