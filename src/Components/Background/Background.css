@@ -1,0 +1,22 @@
+.background {
+    height: 100vh; /* Use viewport height */
+    width: 100vw; /* Use viewport width */
+    top: 0;
+    left: 0;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 500ms ease-in-out;
+}

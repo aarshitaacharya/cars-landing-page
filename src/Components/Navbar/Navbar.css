@@ -1,0 +1,48 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+}
+
+.nav-logo{
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: white;
+    color: #262626;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        margin: 20px 20px; /* Adjust margins for smaller screens */
+    }
+    
+    .nav-logo {
+        font-size: 32px; /* Decrease font size for smaller screens */
+    }
+    
+    .nav-menu {
+        gap: 40px; /* Adjust gap between menu items for smaller screens */
+    }
+    
+    .nav-contact {
+        padding: 8px 24px; /* Adjust padding for smaller screens */
+    }
+}
